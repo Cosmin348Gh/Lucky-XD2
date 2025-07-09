@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~dnMxUQCK#5oQ2TVCkmtPPLaEwv_-qfCUlvGqJY8Rkm0RtxK-F2EM",
+SESSION_ID: process.env.SESSION_ID || "malvin~p6dBEAwa#o_7Y5qFMrUff_KFVsoGFDeuRJU5UD6ADg5Nt3qvO3u8",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -68,10 +68,10 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "256789966218",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "40784858433",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "Lucky 218",
+OWNER_NAME: process.env.OWNER_NAME || "cosmin",
 // add bot owner name
 
               DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
@@ -97,7 +97,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Lucky 218",
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 
-         PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+         PUBLIC_MODE: process.env.PUBLIC_MODE || "public",
 // make false if want private mod
 
         AUTO_TYPING: process.env.AUTO_TYPING || "false",
